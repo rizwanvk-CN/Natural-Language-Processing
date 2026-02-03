@@ -1,0 +1,8 @@
+ef plural(word):
+    if word.endswith("s"):
+        return word + "es"
+    else:
+        return word + "s"
+
+print(plural("cat"))
+print(plural("bus"))
