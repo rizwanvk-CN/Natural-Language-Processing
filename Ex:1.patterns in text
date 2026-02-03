@@ -1,0 +1,10 @@
+import re
+
+text = "I love python programming"
+
+if re.search("python", text):
+    print("Found")
+else:
+    print("Not Found")
+
+    
