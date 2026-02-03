@@ -1,0 +1,5 @@
+def ends_with_ab(s):
+    return s.endswith("ab")
+
+print(ends_with_ab("cab"))
+print(ends_with_ab("abc"))
